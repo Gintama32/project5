@@ -32,7 +32,7 @@ function Hour_weather({ city, forecast_days }) {
             }
         };
         fetch_data();
-    }, [url]);
+    }, [url,forecast_days]);
 
     const weatherIcons = {
         sunny: '☀️',
