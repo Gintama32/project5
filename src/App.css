@@ -1,0 +1,47 @@
+
+.current_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  border: 1px solid black; /* Add border width */
+  max-width:330px;
+  width: 100%;
+  margin: 0 auto;
+  background-color:#293547;
+
+}
+.input-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  margin: 20px 0; /* Add some space above and below */
+}
+
+input {
+  padding: 10px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Border for input */
+  border-radius: 4px; /* Rounded corners */
+  width: 300px; /* Fixed width (adjust as needed) */
+}
+.temp_icon {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 5px; /* Adds space between the temperature text and the icon */
+}
+.temp_icon span{
+  margin-bottom: 2px;
+}
+
+.current_data .current{
+  margin:6px ;
+}
+.title{
+  margin: 10px;
+  color:white;
+  border:2px solid black;
+  border-radius: 7px;
+  max-width: fit-content;
+  padding: 3px 10px;
+  background-color:#293547 ;
+}

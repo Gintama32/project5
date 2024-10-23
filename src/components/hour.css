@@ -1,0 +1,55 @@
+.temp-stats {
+    display: flex;
+    justify-content: center; /* Center the container */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.hourly-cast {
+    background-color: #293547;
+    border: 2px solid black;
+    margin: 20px; /* Add margin to create space around the table */
+    border-radius: 7px;
+    overflow: auto; 
+    width: 600px; /* Set a specific width for the table */
+}
+
+
+.hourly-cast table {
+    width: 100%; /* Make the table take the full width of its container */
+    border-collapse: collapse; /* Merge borders for a cleaner look */
+}
+
+.hourly-cast thead {
+    background-color: #1c2732; /* A darker color for headers */
+    color: white;
+}
+
+.hourly-cast th,
+.hourly-cast td {
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center; /* Center text */
+    border: 2px solid black; /* Border for each cell */
+}
+
+.hourly-cast tbody tr:hover {
+    background-color: #4b6071; /* Highlight row on hover */
+}
+
+.sunny {
+    border: 2px solid black;
+    background-color: #293547;
+    height: fit-content;
+    margin-left: 40px; /* Move sunny div slightly to the right */
+    padding: 10px; /* Add some padding for better appearance */
+}
+
+.value {
+    color: green;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.avg {
+    text-align: center;
+}
